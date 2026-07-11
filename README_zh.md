@@ -15,13 +15,25 @@ _**"一个用于生成文章目录静态资源条目的 Hexo 插件。**_
 
 ## 安装
 
-### 通过 npm _（推荐）_
+### 通过 npm
 
 ```bash
-npm install hexo-generator-assets --save
+npm install @carmjos/hexo-generator-assets --registry=https://npm.pkg.github.com
 ```
 
-### 手动安装
+或者在项目的 `.npmrc` 文件中添加以下内容，以始终使用该作用域的 GitHub Packages：
+
+```
+@carmjos:registry=https://npm.pkg.github.com
+```
+
+然后正常安装：
+
+```bash
+npm install @carmjos/hexo-generator-assets
+```
+
+### 手动安装 _（推荐）_
 
 1. 从 [GitHub Releases][gh:releases] 下载最新版本
 2. 将 `hexo-generator-assets.js` 放置到 Hexo 项目的 `scripts/` 目录中

@@ -1,5 +1,5 @@
 {
-  "name": "hexo-generator-assets",
+  "name": "@carmjos/hexo-generator-assets",
   "version": "1.0.0",
   "description": "A Hexo plugin that generates static asset entries for post directories, automatically serving images and other files alongside your posts.",
   "main": "hexo-generator-assets.js",
@@ -25,4 +25,3 @@
   },
   "homepage": "https://github.com/CarmJos/hexo-generator-assets#readme"
 }
-

@@ -15,13 +15,25 @@ A Hexo generator plugin that automatically serves images and other static files 
 
 ## Installation
 
-### Via npm _(Recommended)_
+### Via npm
 
 ```bash
-npm install hexo-generator-assets --save
+npm install @carmjos/hexo-generator-assets --registry=https://npm.pkg.github.com
 ```
 
-### Manual Installation
+Or add the following to your project's `.npmrc` file to always use GitHub Packages for this scope:
+
+```
+@carmjos:registry=https://npm.pkg.github.com
+```
+
+Then install normally:
+
+```bash
+npm install @carmjos/hexo-generator-assets
+```
+
+### Manual Installation _(Recommended)_
 
 1. Download the latest release from [GitHub Releases][gh:releases]
 2. Place `hexo-generator-assets.js` into your Hexo project's `scripts/` directory
