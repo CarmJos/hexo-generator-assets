@@ -1,0 +1,28 @@
+{
+  "name": "hexo-generator-assets",
+  "version": "1.0.0",
+  "description": "A Hexo plugin that generates static asset entries for post directories, automatically serving images and other files alongside your posts.",
+  "main": "hexo-generator-assets.js",
+  "keywords": [
+    "hexo",
+    "generator",
+    "assets",
+    "plugin",
+    "image",
+    "static"
+  ],
+  "author": "CarmJos",
+  "license": "GPL-3.0",
+  "peerDependencies": {
+    "hexo": ">=5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarmJos/hexo-generator-assets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarmJos/hexo-generator-assets/issues"
+  },
+  "homepage": "https://github.com/CarmJos/hexo-generator-assets#readme"
+}
+
